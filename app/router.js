@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route("about");
+  this.route("live-updating");
 });
 
 export default Router;
